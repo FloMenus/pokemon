@@ -9,6 +9,7 @@ function App() {
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line
   }, [randomPokemon]);
 
   const fetchData = async () => {
