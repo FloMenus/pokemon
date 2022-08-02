@@ -28,14 +28,16 @@ p {
   margin: 0 auto;
   margin-top: 40px;
   width: 280px;
+  height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 20px;
   border: 1px solid white;
   border-radius: 2%;
   background-color: rgba(187, 139, 139, 0.1);
   backdrop-filter: blur(60px);
+
 }
 
 .pokemon-card img {
@@ -61,6 +63,11 @@ p {
   justify-content: center;
   backdrop-filter: blur(200px);
   cursor : pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button-random:hover {
+  background-color: #81e6d971;
 }
 
 .button-random p {
