@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+body {
+  background-color: #1a202c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 33px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  font-size: 18px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokemon-card {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 2%;
+}
+
+.pokemon-card img {
+  width: 258px;
+}
+
+.description {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.list {
+  
+}
+.button-random {
+  background-color: #81e6d9;
+  padding: 12px 35px;
+  width: 280px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-random p {
+  color: black;
+  font-weight: bold;
 }
